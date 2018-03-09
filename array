@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+$roches[0] = 'sediment';
+$roches[1] = 'ardoise';
+$roches[2] = 'lave';
+$roches[3] = 'minerai';
+$roches[9] = 'schiste';
+
+foreach $roches (qw/ sediment ardoise lave /) {
+  print "Une roche est $roches. \n";
+}
